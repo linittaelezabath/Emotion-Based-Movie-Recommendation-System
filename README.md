@@ -9,3 +9,10 @@ Once the user quits the webcam feed, the program outputs a list of recommended m
 
 Python 3.x
 OpenCV (opencv-python)
+
+### How to Run
+
+Install dependencies using pip install opencv-python.
+Run the Python script.
+Allow webcam access.
+Press q to exit and receive movie recommendations.
