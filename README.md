@@ -4,3 +4,8 @@ This project is a Python-based application that detects a user’s facial expres
 The system performs real-time face detection, identifies simple emotional cues such as smiles and eye patterns, and maps the detected emotion to a predefined movie database.
 The application uses OpenCV for computer vision tasks, including face, eye, and smile detection, and the random module to provide varied movie recommendations.
 Once the user quits the webcam feed, the program outputs a list of recommended movies corresponding to the final detected emotion.
+
+### Requirements
+
+Python 3.x
+OpenCV (opencv-python)
