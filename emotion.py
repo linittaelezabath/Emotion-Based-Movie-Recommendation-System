@@ -2,7 +2,7 @@ import cv2
 import random
 
 movies = {
-    "happy": ["Paddington 2", "Singin in the Rain", "Zootopia", "The Intouchables", "School of Rock"],
+    "happy": ["Paddington 2", "La La Land", "Singin in the Rain", "Zootopia", "The Intouchables", "School of Rock"],
     "sad": ["Schindler's List", "Manchester by the Sea", "Marley & Me", "Room", "Blue Valentine"],
     "surprise": ["Inception", "Shutter Island", "The Sixth Sense", "Gone Girl", "Arrival"],
     "fear": ["Get Out", "Hereditary", "A Quiet Place", "The Conjuring", "Psycho"],
@@ -61,3 +61,4 @@ print("🎬 Recommended Movies for you:")
 for m in recommendations:
 
     print("-", m)
+
